@@ -17,7 +17,7 @@
                     {{ tag }}
                 </div>
             </div>
-            <div class="card__owner-info">{{ clientName }}</div>
+            <div class="card__client-info">{{ clientName }}</div>
             <div class="card__tags">
                 <div class="card__tag"
                     v-for="(tag, index) in tags"
@@ -95,7 +95,6 @@ export default {
     border-radius: 16px;
     background-color: rgb(255, 255, 255);
     padding: 16px 16px 8px;
-
     &:hover {
         cursor: pointer;
         box-shadow: 1px 1px 8px 7px rgba(34, 60, 80, 0.08);
@@ -105,34 +104,44 @@ export default {
         margin-bottom: 8px;
     }
 
+    // .card__title
+
     &__title {
         display: flex;
         font-size: 20px;
         font-weight: 900;
     }
     
+    // .card__cost, .card__company, .card__client-info
 
-    &__cost, &__company, &__owner-info {
+    &__cost, &__company, &__client-info {
         font-size: 18px;
     }
+
+    // .card__company-inn, .card__order-info
 
     &__company-inn, &__order-info {
         font-size: 16px;
         color: grey
     }
 
+    // .card__order-info
+
     &__order-info {
         margin-top: 8px;
-
         span:first-child {
             margin-right: 24px;
         }
     }
 
+    // .card__tags
+
     &__tags {
         display: flex;
         flex-wrap: wrap;
     }
+
+    // .card__tag
 
     &__tag {
         display: flex;
@@ -146,7 +155,9 @@ export default {
         background-color: rgba(172, 218, 255, 0.52);
     }
 
-    &__owner-info {
+    // .card__client-info
+
+    &__client-info {
         display: flex;
         align-items: center;
         height: 60px;

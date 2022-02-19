@@ -120,6 +120,8 @@ export default {
     height: 100%;
     padding: 8px;
     min-height: 100vh;
+    
+    // .dashboard__field
 
     &__field {
         position: relative;
@@ -175,6 +177,8 @@ export default {
         margin: 0; 
     }
 
+    // .dashboard__content
+
     &__content {
         display: flex;
         justify-content: center;
@@ -183,6 +187,8 @@ export default {
         height: 100%;
         width: 100%;
     }
+
+    // .dashboard__filters
 
     &__filters {
         display: flex;
@@ -194,6 +200,8 @@ export default {
             align-items: center;
         }
     }
+
+    // .dashboard__item
 
     &__item {
         margin: 8px;

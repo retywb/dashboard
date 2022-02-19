@@ -24,7 +24,6 @@ export default {
     @media (max-width: 662px){
         font-size: 16px;
     }
-
     img {
         margin: 40px 0;
         height: 200px;

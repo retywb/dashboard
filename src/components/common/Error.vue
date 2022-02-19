@@ -25,11 +25,15 @@ export default {
     justify-content: center;
     flex: 1;
 
+    // .error__title
+
     &__title {
         font-size: 48px;
         font-weight: 900;
         color: rgb(255, 166, 166);
     }
+
+    // .error__message
 
     &__message {
         margin-top: 24px;

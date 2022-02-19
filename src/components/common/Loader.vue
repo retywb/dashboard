@@ -16,7 +16,6 @@ export default {
     align-items: center;
     justify-content: center;
     flex: 1;
-
     img {
         animation: spin 2s linear 0s infinite;
         height: 64px;
